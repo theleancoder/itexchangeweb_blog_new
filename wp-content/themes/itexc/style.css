@@ -1,0 +1,357 @@
+/*
+Theme Name: ITEXC
+Theme URI: http://itexchangeweb.com/
+Author:WordPress team
+Author URI: http://itexchangeweb.com/
+Description: itexc is the wordpress website.
+Version: 1.0
+Text Domain: itexc
+*/
+/*
+ * Shankaranand
+ */
+.container .activeDetails{font-family: "FuturaStd-Heavy" !important;
+    opacity: 1 !important;
+}
+#perspectives .blogIcon #blogBG,#perspectives .whitepprIcon #whitepprBG
+{z-index:99!important;
+}
+#forgotPassword{
+	margin-top: -4px!important;
+	margin-left: 2%!important;
+}
+#perspectives #blogBody #bigBlog #bigBlogImg img
+{height:auto!important;
+}
+.activeFont
+{font-family:FuturaStd-Heavy!important;
+}
+#privacyPolicySPGetInTouch-error{margin-right: 12%!important;
+    width: 21%!important;}
+#privacyPolicyBuyerGetInTouch-error{margin-right: 12%!important;
+    width:43%!important;}
+
+
+
+ul#menu-main-menu li.current-menu-item a{color:#54b3ff;}
+.loadmore,.wp-blue-btn{
+    background-color: #29a0ff; 
+    border: 1px solid #29a0ff;
+    color: #fff;
+    font-family: FuturaStd-Heavy;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    margin-top: 60px;
+    outline: 0 none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    margin-bottom:1%;
+}
+#blogExpend #details ol,#blogExpend #details ul
+{font-family: "FuturaStd-Book";
+  font-size: 18px;
+  color: rgba(36, 44, 48, 0.8);
+  line-height: 1.667;
+  float: left;
+}
+table thead th
+{font-family:FuturaStd-Heavy;
+font-size:16px;
+padding:5px;
+border-right:1px solid #ddd;
+}
+table
+{  border: 1px solid #ddd!important;
+}
+table>tbody>tr:nth-of-type(odd)
+{  background-color: #f9f9f9;
+}
+table tr td
+{font-family:FuturaStd-Book;
+font-size:16px;
+padding:5px;
+}
+caption
+{font-family:FuturaStd-Medium;
+margin:10px 0px 10px 10px!important;
+font-size:16px;
+}
+#blogExpend h1,#blogExpend h2,#blogExpend h3,#blogExpend h4
+{font-family: "FuturaStd-Heavy";
+padding-left:15px;
+}
+#blogExpend #details ol li,#blogExpend #details ul li
+{ 
+   float:left;
+width: 100%
+}
+
+.loadmore,.wp-blue-btn:focus
+{color:#fff!important;
+}
+
+.wpheading{
+    background-color: #f4f4f4;
+    margin-left: -5%;
+    padding:0;
+    width: 50%;
+}
+
+.wpheading span{font-family: "FuturaStd-Medium";
+                font-size: 18px;
+                margin-bottom: 10px;
+                margin-left: 1%;
+                margin-top: 25px;
+                text-transform: capitalize;
+}
+.wpheading-container{
+    margin-top:10px;
+}  
+#perspectives #blogBody #smallblogbody #waiting img
+{margin-left:2%;
+}
+body.default-page .wpsearch-container,body.default-page .wpsearch-blogbody{
+    margin-top:0px!important;
+}
+.wp-blue-color{color:#52b1fd;}
+.search-notfound{margin-left:-5%;}
+#perspectives #blogBody #bigBlog p a {
+    color: #005182;
+}
+#getInTouch p
+{margin-top:0;
+margin-left:0;
+}
+.wp_margin-abovefooter{margin-top:10px;text-align:center;}
+.outline-none,a.outline-none:focus,a.outline-none:hover{text-decoration:none;}
+#socialDetails a {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.single-socialDetails span:first-child{
+    margin-left: 0px!important;
+    margin-top: 0px!important;
+    text-align: none;
+    text-transform: uppercase;
+    width: 100px!important;
+}
+a.heading-link{color:#005182;}
+a.author-post{color:#52b1fd;}
+
+.single-thumb-full{width:100%;}
+
+/*body.search #blogBody #serchBox input{padding:0px 0px 0px 0px !important;}*/
+/*#smallBlog{min-height:530px;}*/
+/*single page*/
+.wpsocial-icon{cursor:pointer;}
+body.single #socialDetails .shareon{
+color:#fff;
+margin-left:0px;
+margin-top:0px;
+font-size:17px;
+ }
+
+ #serchBox input{height:50px;padding:0px 55px 0px 15px!important;}
+ .wpauthor,a.wpauthor:hover{text-decoration: none;}
+.facolor i{background-color:#476eac!important;}
+.twcolor i{background-color:#5bace2!important;}
+.licolor i{background-color:#2a5caa!important;}
+
+/*
+*CSS : 24MAR2015
+*/
+
+#blogExpend #blogBody #bigBlog #bigBlogImg img{height:auto;}
+.getintouch a:hover{color:#fff;}
+
+#logInHead{cursor:pointer;}
+
+/*
+*Please if possible then don't edit below css.
+*You are authorized to upldte the above css
+*WordPress default CSS
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+#blogExpend #blogBody #bigBlog p
+{margin-left:1%;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+/*
+WP CSS: 23rd Mar 2015
+*/
+hr{margin-top:0px!important;}
+hr.leftCir{margin-left: -71px;
+    margin-top: -31px !important;float:left;}
+@media(max-width:1280px)
+{hr.leftCir
+{margin-left:0;
+}}
+
+hr.rightCir{margin-right: -71px;
+    margin-top: -30px!important;}
+@media(max-width:1280px)
+{hr.rightCir
+{
+margin-right:-3px;
+}}
+#perspectives .line{display:inline-block !important;}
+/*
+.single #blogBody .single-thumb,#blogExpend #blogBody #bigBlog #bigBlogImg img{height: 310px;
+    max-width: 120%;
+    width: 105%;
+}*/
+@media(max-width:1200px)
+{#perspectives #blogBody #smallblogbody #smallBlog #heading,#perspectives #blogBody #smallblogbody #smallBlog #description
+{  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  min-height: 26px;
+}
+}
+@media(max-width:991px)
+{#perspectives #blogBody #smallblogbody #smallBlog #heading,#perspectives #blogBody #smallblogbody #smallBlog #description
+{ 
+  white-space: normal;
+  overflow-x: visible;
+  min-height: 56px;
+}
+}
+@media(max-width:800px)
+{#perspectives #blogBody #smallblogbody #smallBlog #heading,#perspectives #blogBody #smallblogbody #smallBlog #description
+{ 
+ text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  min-height: 26px;
+}
+}
+@media(max-width:600px)
+{#perspectives #blogBody #smallblogbody #smallBlog #heading,#perspectives #blogBody #smallblogbody #smallBlog #description
+{ 
+  white-space: normal;
+  overflow-x: visible;
+  min-height: 56px;
+}
+#perspectives #blogBody #bigBlog #socialDetails span {
+  padding-left: 42px;
+}
+}
+@media(max-width:450px)
+{#perspectives #blogBody #smallblogbody #smallBlog #heading,#perspectives #blogBody #smallblogbody #smallBlog #description
+{ 
+ text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  min-height: 26px;
+}
+
+}
+@media(max-width:350px)
+{#perspectives #blogBody #bigBlog #socialDetails span {
+  padding-left: 1px;
+}
+}
